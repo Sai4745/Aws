@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Data</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #007bff;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .team-score {
+      background-color: #28a745;
+      color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .player-stats {
+      background-color: #17a2b8;
+      color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cricket Data</h1>
+
+  <div class="container">
+    <!-- Team Score Section -->
+    <div class="team-score">
+      <h2>Current Match Score</h2>
+      <p><strong>Team A</strong>: 250/4 (45.2 overs)</p>
+      <p><strong>Team B</strong>: 200/6 (40 overs)</p>
+    </div>
+
+    <!-- Player Statistics Section -->
+    <div class="player-stats">
+      <h2>Player Statistics</h2>
+      <p><strong>Player 1</strong>: 45 runs, 2 wickets</p>
+      <p><strong>Player 2</strong>: 62 runs, 1 wicket</p>
+      <p><strong>Player 3</strong>: 32 runs, 0 wickets</p>
+    </div>
+
+    <!-- Cricket Match Data Table -->
+    <h2>Cricket Match Data</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Runs</th>
+          <th>Wickets</th>
+          <th>Overs</th>
+          <th>Fours</th>
+          <th>Sixes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Virat Kohli</td>
+          <td>67</td>
+          <td>0</td>
+          <td>10</td>
+          <td>7</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Rohit Sharma</td>
+          <td>84</td>
+          <td>0</td>
+          <td>12</td>
+          <td>6</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Jasprit Bumrah</td>
+          <td>5</td>
+          <td>3</td>
+          <td>10</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Shikhar Dhawan</td>
+          <td>29</td>
+          <td>0</td>
+          <td>8</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
